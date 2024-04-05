@@ -6,7 +6,6 @@ const Layout = () => {
       <header>
         <Link to="/">Home</Link>
         <Link to="/about">about</Link>
-        <Link to="*">not</Link>
       </header>
       <Outlet/>
       <footer>2222</footer>
