@@ -1,6 +1,9 @@
 .App {
   text-align: center;
-  background: red;
+  height: auto;
+  background-size: cover;
+  z-index: -99;
+  background-image: url(https://media.istockphoto.com/id/1289474209/video/digital-cyberspace-futuristic-purple-color-particles-wave-flowing-with-lines-and-dots.jpg?s=640x640&k=20&c=rMczm4ldzWs9-RJ36AFmKDxsVWYRVsrbVIZitwmP1OA=);
 }
 
 .App-logo {
