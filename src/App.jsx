@@ -1,4 +1,4 @@
-import {BrowserRouter as Route, Router, Routes } from "react-router-dom";
+import {Link, Route, Router, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
@@ -7,6 +7,10 @@ import About from "./components/About/About";
 function App() {
   return (
     <div className="App">
+      <header>
+        <Link to='/'>Home</Link>
+        <Link to='/about'>About</Link>
+      </header>
       {/* <Route /> */}
       <Router>
         <Routes>
@@ -19,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default App
