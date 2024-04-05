@@ -4,8 +4,8 @@ const Layout = () => {
   return (
     <>
       <header>
-        <Link to="/"><h2>Home</h2></Link>
-        <Link to="/about">about</Link>
+        <Link to="/"><span>Home</span></Link>
+        <Link to="/about"><span>About</span></Link>
       </header>
       <Outlet/>
       {/* <footer>2222</footer> */}
