@@ -8,7 +8,7 @@ const Layout = () => {
         <Link to="/about">about</Link>
       </header>
       <Outlet/>
-      <footer>2222</footer>
+      {/* <footer>2222</footer> */}
     </>
   );
 };
