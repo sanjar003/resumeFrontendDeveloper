@@ -1,0 +1,12 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 44px;
+    grid-area: auto;
+ flex-wrap: wrap;
+}
+h2{
+    font-size: 32px;
+    width: 600px;
+}
