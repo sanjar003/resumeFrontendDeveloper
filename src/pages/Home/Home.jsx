@@ -6,8 +6,8 @@ const Home = () => {
   return ( 
     <>
       <div className="Container">
-        <div>
-          <h2>Hello 👋🏻, </h2>
+        <div className="containerText">
+          <h2 className="text">Hello 👋🏻, </h2>
           <h2> Санжар Саматов Frontend разработчик</h2>
         </div>
         <div>

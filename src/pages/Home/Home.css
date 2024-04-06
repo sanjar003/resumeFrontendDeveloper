@@ -1,12 +1,19 @@
-.Container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 44px;
-    grid-area: auto;
- flex-wrap: wrap;
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 94px;
+  grid-area: auto;
+  flex-wrap: wrap;
 }
-h2{
-    font-size: 32px;
-    width: 600px;
+.containerText {
+  width: 600px;
+}
+.text {
+  font-size: 33px;
+  color: rgb(218, 216, 216);
+}
+h2 {
+  font-size: 33px;
+  color: rgb(218, 216, 216);
 }
