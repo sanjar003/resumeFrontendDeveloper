@@ -5,13 +5,21 @@ import styled from "styled-components";
 const Layout = () => {
   return (
     <>
+      
       <Headers>
-        <Link to="/">
-          <Span>Home</Span>
-        </Link>
-        <Link to="/about">
-          <Span>About</Span>
-        </Link>
+        <div>
+          <Link to="/">
+            <Span>Home</Span>
+          </Link>
+          <Link to="project">
+            <Span>MyProject</Span>
+          </Link>
+        </div>
+        <div>
+          <Link to="/about">
+            <Span>About</Span>
+          </Link>
+        </div>
       </Headers>
       <Outlet />
 
@@ -21,8 +29,11 @@ const Layout = () => {
 };
 
 const Headers = styled.header`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 50px;
-  background:#8121D0 ;
+  background: #8121d0;
   backdrop-filter: blur(9px);
 `;
 const Span = styled.span`
