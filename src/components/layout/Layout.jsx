@@ -32,6 +32,8 @@ const Headers = styled.header`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  width: 100%;
   height: 50px;
   background: #8121d0;
   backdrop-filter: blur(9px);
