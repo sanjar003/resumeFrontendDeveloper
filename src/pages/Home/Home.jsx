@@ -1,13 +1,25 @@
-import { Button } from "@mui/material";
+// import { Button } from "@mui/material";
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
-  return (
+  return ( 
     <>
-      <h2>Hello 👋🏻, </h2>
-      <img src="https://media.geeksforgeeks.org/wp-content/uploads/20230716194535/How-Much-DSA-is-Required-For-Frontend-Developer.png" />
+      <div className="Container">
+        <div>
+          <h2>Hello 👋🏻, </h2>
+          <h2> Санжар Саматов Frontend разработчик</h2>
+        </div>
+        <div>
+          <img
+            src="https://vartulz.com/wp-content/uploads/2021/04/Asset-1@4x-1.png"
+            width="590px"
+            height="400px"
+          />
+        </div>
+      </div>
 
-      <Button variant="contained">Contained</Button>
+      {/* <Button variant="contained">Contained</Button> */}
     </>
   );
 };
