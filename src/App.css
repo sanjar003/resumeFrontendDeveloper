@@ -1,9 +1,13 @@
 .App {
   text-align: center;
   height: auto;
-  background-size: cover;
-  background-image: url(https://media.istockphoto.com/id/1289474209/video/digital-cyberspace-futuristic-purple-color-particles-wave-flowing-with-lines-and-dots.jpg?s=640x640&k=20&c=rMczm4ldzWs9-RJ36AFmKDxsVWYRVsrbVIZitwmP1OA=);
+  /* background-size: cover;
+  background-image: url("https://media.istockphoto.com/id/1289474209/video/digital-cyberspace-futuristic-purple-color-particles-wave-flowing-with-lines-and-dots.jpg?s=640x640&k=20&c=rMczm4ldzWs9-RJ36AFmKDxsVWYRVsrbVIZitwmP1OA="); */
 }
+/* #app{
+  background-image: url(https://th.bing.com/th/id/OIP.w4HVG-BhZS536vvIUBtBvAHaHa?rs=1&pid=ImgDetMain);
+} */
+
 
 .App-logo {
   height: 40vmin;

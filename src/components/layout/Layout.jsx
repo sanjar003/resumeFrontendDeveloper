@@ -5,25 +5,24 @@ import styled from "styled-components";
 const Layout = () => {
   return (
     <>
-      
       <Headers>
         <div>
           <Link to="/">
             <Span>Home</Span>
           </Link>
-          <Link to="project">
-            <Span>MyProject</Span>
-          </Link>
-        </div>
-        <div>
+
           <Link to="/about">
             <Span>About</Span>
           </Link>
         </div>
+        <div>
+          <Link to="project">
+            <Span>MyProject</Span>
+          </Link>
+        </div>
       </Headers>
       <Outlet />
-
-      <footer>2222</footer>
+      {/* <footer>2222</footer> */}
     </>
   );
 };

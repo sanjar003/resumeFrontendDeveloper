@@ -8,7 +8,7 @@ import MyProject from "./pages/Projockt/MyProject";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app">
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
