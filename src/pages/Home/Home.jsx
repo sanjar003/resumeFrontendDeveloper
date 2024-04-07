@@ -3,12 +3,14 @@ import React from "react";
 import "./Home.css";
 
 const Home = () => {
-  return ( 
+  return (
     <>
       <div className="Container">
-        <div className="containerText">
+        <div className="containerText ">
           <h2 className="text">Hello 👋🏻, </h2>
-          <h2> Санжар Саматов Frontend разработчик</h2>
+          <h2>
+            Санжар Саматов Frontend <h2>разработчик</h2>
+          </h2>
         </div>
         <div>
           <img
