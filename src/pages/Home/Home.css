@@ -5,6 +5,7 @@
   gap: auto;
   grid-area: auto;
   flex-wrap: wrap;
+  height: 670px;
 }
 .containerText {
   width: 600px;
