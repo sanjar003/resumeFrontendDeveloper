@@ -11,13 +11,20 @@ const Home = () => {
           src={HOMEPNG}
           alt="home pic"
           className="img-fluid"
-          style={{ maxHeight: "680px", position: "fixed", zIndex:"-99", width:"100%", scrollbarColor:'none' }}
+          style={{
+            maxHeight: "699px",
+            position: "fixed",
+            zIndex: "-99",
+            width: "100%",
+          }}
         />
         <div className="containerText ">
-          <h2 className="text">Hello 👋🏻, </h2>
-          <h2>
-            Санжар Саматов Frontend <h2>разработчик</h2>
-          </h2>
+          <h1 className="text">
+            <strong>Hello 👋🏻,</strong>
+          </h1>
+          <h1 className="text2">
+            Санжар Саматов Frontend <h1 className="text3">разработчик</h1>
+          </h1>
         </div>
         <div>
           <img

@@ -5,7 +5,7 @@ const Footer = () => {
   return <Container>Footer</Container>;
 };
 const Container = styled.div`
-  height: 40px;
+  height: 90px;
   background: black;
   color: white;
 `;
