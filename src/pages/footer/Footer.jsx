@@ -23,7 +23,8 @@ const Container = styled.div`
   justify-content: center;
   gap: 20px;
   height: 90px;
-  background: black;
+  backdrop-filter: blur(7px);
+  /* background: black; */
   color: white;
 `;
 

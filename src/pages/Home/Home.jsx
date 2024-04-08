@@ -12,7 +12,7 @@ const Home = () => {
           alt="home pic"
           className="img-fluid"
           style={{
-            maxHeight: "699px",
+            maxHeight: "100%",
             position: "fixed",
             zIndex: "-99",
             width: "100%",
@@ -20,7 +20,7 @@ const Home = () => {
         />
         <div className="containerText ">
           <h1 className="text">
-            <strong>Hello 👋🏻,</strong>
+          Hello 👋🏻,
           </h1>
           <h1 className="text2">
             Санжар Саматов Frontend <h1 className="text3">разработчик</h1>

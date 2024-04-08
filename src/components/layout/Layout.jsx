@@ -34,14 +34,15 @@ const Headers = styled.header`
   position: fixed;
   width: 100%;
   height: 50px;
-  background: #8121d0;
-  backdrop-filter: blur(9px);
+  /* color: black; */
+  /* background: #8121d0; */
+  backdrop-filter: blur(2px);
 `;
 const Span = styled.span`
   margin-top: 6px;
   font-size: 22px;
   margin-left: 15px;
-  color: white;
+  color: #0a0a0a;
 `;
 
 export default Layout;
