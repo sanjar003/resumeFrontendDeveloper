@@ -2,20 +2,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: auto;
   grid-area: auto;
   flex-wrap: wrap;
   height: 670px;
 }
 .containerText {
   width: 600px;
-  margin-top: 20px;
+  height: 250px;
 }
 .text {
   font-size: 37px;
-  color: rgb(218, 216, 216);
+  color: #f0f8ff;
 }
-h2 {
+h1 {
   font-size: 37px;
-  color: rgb(218, 216, 216);
+  color: #f0f8ff;
+}
+.img-fluid {
+  position: absolute;
+  top: 40px;
 }
