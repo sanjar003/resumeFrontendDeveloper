@@ -19,3 +19,9 @@ h1 {
   color: #f0f8ff;
 }
 
+.img-fluid {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

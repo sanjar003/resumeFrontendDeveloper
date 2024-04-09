@@ -10,12 +10,14 @@ const Home = () => {
         <img
           src={HOMEPNG}
           alt="home pic"
-          className="img-fluid"
+          // className="img-fluid"
           style={{
-            maxHeight: "100%",
+            maxHeight: "800px",
             position: "fixed",
             zIndex: "-99",
             width: "100%",
+            backgroundPosition:"center",
+            top:"3px",
           }}
         />
         <div className="containerText ">
