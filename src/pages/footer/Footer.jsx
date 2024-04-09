@@ -1,25 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { AiFillGithub } from "react-icons/ai";
-import { AiFillGoogleCircle } from "react-icons/ai";
-import { AiFillPhone } from "react-icons/ai";
-import { FaTelegram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <Container>
-      <Li>
-        <a href="https://github.com/sanjar003">
-          <AiFillGithub style={{ height: "39px", width: "39px" }} />
-        </a>
-      </Li>
-      <Li>
-        <a href="sanjarsamatov0306@gmail.com">
-          <AiFillGoogleCircle style={{ height: "39px", width: "39px" }} />
-        </a>
-      </Li>
-      <AiFillPhone style={{ height: "39px", width: "39px" }}></AiFillPhone>
-      <FaTelegram style={{ height: "39px", width: "39px" }}></FaTelegram>
+      <h2>Designed by Sanjar</h2>
+      <h2>Thank you © 2024 Sanjar</h2>
     </Container>
   );
 };
@@ -34,7 +20,5 @@ const Container = styled.div`
   /* background: black; */
   color: white;
 `;
-const Li = styled.li`
-  display: inline-block;
-`;
+
 export default Footer;

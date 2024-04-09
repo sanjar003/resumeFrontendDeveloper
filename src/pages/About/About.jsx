@@ -1,15 +1,17 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const About = () => {
   return (
-    <Container>About</Container>
-  )
-}
+    <Container>
+      <h2>about me there </h2>
+    </Container>
+  );
+};
+
 const Container = styled.div`
-   height: 500px;
-  background: red;
-`
+  height: 500px;
+  background: #303030;
+`;
 
-
-export default About
+export default About;
