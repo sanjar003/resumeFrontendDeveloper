@@ -12,7 +12,7 @@ const Layout = () => {
           </Link>
 
           <Link to="/about">
-            <Span>About</Span>
+            <Span>About Me</Span>
           </Link>
         </div>
         <div>
