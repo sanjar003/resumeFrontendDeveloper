@@ -4,13 +4,13 @@ import styled from "styled-components";
 const About = () => {
   return (
     <Container>
-      <h2>about me there </h2>
+      about 
     </Container>
   );
 };
 
 const Container = styled.div`
-  height: 500px;
+  height: 700px;
   background: #303030;
 `;
 
