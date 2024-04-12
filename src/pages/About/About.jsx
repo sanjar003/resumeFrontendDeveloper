@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import AboutImg from "../../Assets/Home.jpg";
 import Asests from "../../Assets/webdev.svg";
+import MySkills from "./MySkills";
 
 const About = () => {
   return (
@@ -26,9 +27,9 @@ const About = () => {
             </ins>
             для обмена данными работу с системой контроля версий{" "}
             <ins style={{ color: "red", fontSize: "22px" }}>Git</ins> , создание
-            компонентов с использованием библиотеки{" "}
+            компонентов с использованием библиотеки
             <ins style={{ color: "red", fontSize: "22px" }}>ReactJs</ins> , а
-            также работу с различными фреймворками и библиотеками такими как{" "}
+            также работу с различными фреймворками и библиотеками такими как
             <ins style={{ color: "red", fontSize: "22px" }}>Redux</ins> ,
             <ins style={{ color: "red", fontSize: "22px" }}>Mobx</ins> , и
             <ins style={{ color: "red", fontSize: "22px" }}>TRK Query,</ins> . Я
@@ -39,11 +40,11 @@ const About = () => {
               Styled Components
             </ins>
             . Кроме того я знаком с инструментами которые помогают в создании
-            приложений такими как{" "}
+            приложений такими как
             <ins style={{ color: "red", fontSize: "22px" }}>Docker</ins> ,
             <ins style={{ color: "red", fontSize: "22px" }}>
               Firebase и Axios,
-            </ins>{" "}
+            </ins>
             что позволяет мне разрабатывать более масштабируемые и быстрые
             приложения. В целом я считаю себя опытным
             <ins style={{ color: "red", fontSize: "22px" }}>Frontend</ins> ,
@@ -60,7 +61,7 @@ const About = () => {
 
       <DIVCONTAINER>
         <h1>My scill</h1>
-    
+        <MySkills />
       </DIVCONTAINER>
     </>
   );
@@ -86,6 +87,6 @@ const DIVCOntainer = styled.div`
   height: 580px;
 `;
 const DIVCONTAINER = styled.div`
-color: red;
+  font-size: 84px;
 `;
 export default About;
