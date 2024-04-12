@@ -17,7 +17,6 @@ const Container = styled.div`
   background: content-box radial-gradient(crimson, skyblue);
   height: 90px;
   backdrop-filter: blur(7px);
-  /* background: black; */
   color: white;
 `;
 
