@@ -2,6 +2,7 @@
 import React from "react";
 import "./Home.css";
 import HOMEPNG from "../../Assets/Home.jpg";
+import Footer from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           alt="home pic"
           // className="img-fluid"
           style={{
-            maxHeight: "800px",
+            maxHeight: "100%",
             position: "fixed",
             zIndex: "-99",
             width: "100%",
@@ -36,8 +37,6 @@ const Home = () => {
           />
         </div>
       </div>
-
-      {/* <Button variant="contained">Contained</Button> */}
     </>
   );
 };
