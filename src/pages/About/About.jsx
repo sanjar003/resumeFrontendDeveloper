@@ -59,10 +59,12 @@ const About = () => {
         </DIVCOntainer>
       </Container>
 
-      <DIVCONTAINER>
+      <div>
         <h1>My scill</h1>
-        <MySkills />
-      </DIVCONTAINER>
+        <>
+          <MySkills />
+        </>
+      </div>
     </>
   );
 };
@@ -86,7 +88,8 @@ const DIVCOntainer = styled.div`
   width: 620px;
   height: 580px;
 `;
-const DIVCONTAINER = styled.div`
-  font-size: 84px;
-`;
+// const DIVCONTAINER = styled.div`
+
+//   font-size: 84px;
+// `;
 export default About;
