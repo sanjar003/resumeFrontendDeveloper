@@ -3,6 +3,7 @@ import styled from "styled-components";
 import AboutImg from "../../Assets/Home.jpg";
 import Asests from "../../Assets/webdev.svg";
 import MySkills from "./MySkills";
+import Footer from "../footer/Footer";
 
 const About = () => {
   return (
@@ -60,11 +61,12 @@ const About = () => {
       </Container>
 
       <div>
-        <h1>My scill</h1>
+        <h1>My Skills</h1>
         <>
           <MySkills />
         </>
       </div>
+      <Footer/>
     </>
   );
 };

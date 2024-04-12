@@ -1,10 +1,11 @@
 .Container {
+  padding-top: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   grid-area: auto;
   flex-wrap: wrap;
-  height: 600px;
+  height: 100%;
 }
 .containerText {
   width: 600px;
