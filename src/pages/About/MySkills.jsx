@@ -17,51 +17,97 @@ import {
   SiTypescript,
   SiAdobephotoshop,
 } from "react-icons/si";
+import styled from "styled-components";
 
 function MySkills() {
   return (
-    <Row style={{ display: "flex", justifyContent:'center', gap:'10px', flexWrap:'wrap' }}>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedux />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiGithub />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFigma />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <FaSass />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAdobephotoshop />
-      </Col>
-    </Row>
+    <Container>
+      <>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiHtml5 />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiCss3 />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiJavascript1 />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiReact />
+          </Col>
+        </ChildrenCOntainer>
+
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiRedux />
+          </Col>
+        </ChildrenCOntainer>
+
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiFirebase />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiGit />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiGithub />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiFigma />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <DiNodejs />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiTypescript />
+          </Col>
+        </ChildrenCOntainer>
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <FaSass />
+          </Col>
+        </ChildrenCOntainer>
+
+        <ChildrenCOntainer>
+          <Col xs={4} md={2} className="tech-icons">
+            <SiAdobephotoshop />
+          </Col>
+        </ChildrenCOntainer>
+      </>
+    </Container>
   );
 }
-
+const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  gap: 38px;
+  flex-wrap:wrap;
+  font-size: 90px;
+`;
+const ChildrenCOntainer =styled.div`
+width: 129px;
+height: 115px;
+font-size: 103px;
+border: 2px solid black;
+text-align: center;
+`
 export default MySkills;
