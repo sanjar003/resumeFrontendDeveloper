@@ -60,13 +60,21 @@ const About = () => {
         </DIVCOntainer>
       </Container>
 
-      <div>
-        <h1>My Skills</h1>
+      <div style={{ paddingTop: "40px" }}>
+        <h1>
+          My <strong style={{ color: "red" }}>Skills</strong>
+        </h1>
+        <h2>
+          <b style={{fontSize:"25px", color:"black"}}>
+            Полностью увидеть, какие навыки я имею и выполнять для разработки
+            проектов для вас
+          </b>
+        </h2>
         <>
           <MySkills />
         </>
       </div>
-      <Footer/>
+      <Footer />
     </>
   );
 };
@@ -76,6 +84,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
+  padding-top: 90px;
   flex-wrap: wrap;
   gap: 55px;
 `;
