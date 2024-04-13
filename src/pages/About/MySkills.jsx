@@ -104,9 +104,9 @@ const Container = styled.div`
   font-size: 90px;
 `;
 const ChildrenCOntainer =styled.div`
-width: 129px;
-height: 115px;
-font-size: 103px;
+width: 159px;
+height: 149px;
+font-size: 1.5em;
 border: 2px solid black;
 text-align: center;
 `
