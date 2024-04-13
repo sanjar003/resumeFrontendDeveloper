@@ -12,6 +12,7 @@ const About = () => {
         <img
           src={AboutImg}
           style={{
+            height:'100%',
             maxHeight: "800px",
             position: "fixed",
             zIndex: "-9",

@@ -14,8 +14,7 @@ const Layout = () => {
           <Link to="/about">
             <Span>About Me</Span>
           </Link>
-        </div>
-        <div>
+
           <Link to="project">
             <Span>MyProject</Span>
           </Link>

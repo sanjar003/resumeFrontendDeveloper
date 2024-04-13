@@ -2,7 +2,7 @@
 import React from "react";
 import "./Home.css";
 import HOMEPNG from "../../Assets/Home.jpg";
-import Footer from "../footer/Footer";
+// import Footer from "../footer/Footer";
 
 const Home = () => {
   return (
@@ -13,11 +13,12 @@ const Home = () => {
           alt="home pic"
           // className="img-fluid"
           style={{
-            maxHeight: "100%",
+            height: "100%",
             position: "fixed",
             zIndex: "-99",
             width: "100%",
             backgroundPosition:"center",
+            backgroundImage:'center',
             top:"3px",
           }}
         />
