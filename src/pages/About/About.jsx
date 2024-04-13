@@ -65,7 +65,7 @@ const About = () => {
           My <strong style={{ color: "red" }}>Skills</strong>
         </h1>
         <h2>
-          <b style={{fontSize:"25px", color:"black"}}>
+          <b style={{ fontSize: "25px", color: "black" }}>
             Полностью увидеть, какие навыки я имею и выполнять для разработки
             проектов для вас
           </b>
