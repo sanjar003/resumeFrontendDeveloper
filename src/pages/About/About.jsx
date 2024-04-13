@@ -12,7 +12,7 @@ const About = () => {
         <img
           src={AboutImg}
           style={{
-            maxHeight: "800px",
+            maxHeight: "100%",
             position: "fixed",
             zIndex: "-9",
             width: "100%",
@@ -74,6 +74,7 @@ const About = () => {
           <MySkills />
         </>
       </div>
+      <br></br>
       <Footer />
     </>
   );
