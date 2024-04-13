@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
 const MyProject = () => {
-  return (
-    <div>MyProject</div>
-  )
-}
+  return <Container>MyProject</Container>;
+};
 
-export default MyProject
+const Container = styled.div`
+  max-height: 100%;
+  width: 100%;
+  background: red;
+  padding-top:90px;
+`;
+
+export default MyProject;

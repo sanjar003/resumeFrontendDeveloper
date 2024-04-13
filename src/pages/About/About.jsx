@@ -12,8 +12,9 @@ const About = () => {
         <img
           src={AboutImg}
           style={{
-            height:'100%',
+            height: "100%",
             maxHeight: "800px",
+            maxHeight: "100%",
             position: "fixed",
             zIndex: "-9",
             width: "100%",
@@ -66,7 +67,7 @@ const About = () => {
           My <strong style={{ color: "red" }}>Skills</strong>
         </h1>
         <h2>
-          <b style={{fontSize:"25px", color:"black"}}>
+          <b style={{ fontSize: "25px", color: "black" }}>
             Полностью увидеть, какие навыки я имею и выполнять для разработки
             проектов для вас
           </b>
@@ -75,6 +76,7 @@ const About = () => {
           <MySkills />
         </>
       </div>
+      <br></br>
       <Footer />
     </>
   );
