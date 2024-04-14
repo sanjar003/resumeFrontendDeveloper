@@ -98,16 +98,17 @@ function MySkills() {
 const Container = styled.div`
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   gap: 38px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   font-size: 90px;
 `;
-const ChildrenCOntainer =styled.div`
-width: 159px;
-height: 149px;
-font-size: 1.5em;
-border: 2px solid black;
-text-align: center;
-`
+const ChildrenCOntainer = styled.div`
+  width: 159px;
+  height: 149px;
+  cursor: pointer;
+  font-size: 1.5em;
+  border: 2px solid black;
+  text-align: center;
+`;
 export default MySkills;
