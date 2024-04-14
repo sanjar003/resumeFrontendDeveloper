@@ -20,14 +20,20 @@ const Home = () => {
             backgroundPosition:"center",
             backgroundImage:'center',
             top:"3px",
+
+            backgroundPosition: "center",
+            top: "3px",
+
           }}
         />
         <div className="containerText ">
-          <h1 className="text">
-          Hello 👋🏻,
-          </h1>
+          <h1 className="text">Hello 👋🏻,</h1>
           <h1 className="text2">
-            Санжар Саматов Frontend <h1 className="text3">разработчик</h1>
+            Санжар Саматов
+            <ins style={{ color: "red" }}>
+              <strong >Frontend</strong>
+            </ins>
+            <h1 className="text3">разработчик</h1>
           </h1>
         </div>
         <div>
