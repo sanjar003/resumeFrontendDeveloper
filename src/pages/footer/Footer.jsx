@@ -1,11 +1,15 @@
 import React from "react";
+import './Footer.css'
 import styled from "styled-components";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Footer = () => {
   return (
     <Container>
-      <h2>Designed by Sanjar</h2>
-      <h2>Thank you © 2024 Sanjar</h2>
+      <a href="https://github.com/dashboard" >
+        <i class="bi bi-github"></i>
+      </a>
+      <h2> © 2024 </h2>
     </Container>
   );
 };
