@@ -15,10 +15,12 @@ const Layout = () => {
             <Span>About Me</Span>
           </Link>
 
+        </div>
+        {/* <div>
           <Link to="project">
             <Span>MyProject</Span>
           </Link>
-        </div>
+        </div> */}
       </Headers>
       <Outlet />
       {/* <footer>2222</footer> */}
