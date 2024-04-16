@@ -6,6 +6,7 @@
   grid-area: auto;
   flex-wrap: wrap;
   height: 100%;
+  /* height: 100vh; */
 }
 .containerText {
   width: 600px;
@@ -25,4 +26,11 @@ h1 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* slider */
+
+.slider-container{
+  width: 80%;
+  margin: 0 auto;
 }
