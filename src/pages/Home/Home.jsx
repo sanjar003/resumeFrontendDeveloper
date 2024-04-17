@@ -14,7 +14,6 @@ import Reacct from "../../Assets/react.png";
 import Sass from "../../Assets/sass.png";
 
 // import Footer from "../footer/Footer";
-
 const Home = () => {
   const slideImages = [
     {
@@ -48,7 +47,6 @@ const Home = () => {
         <img
           src={HOMEPNG}
           alt="home pic"
-          // className="img-fluid"
           style={{
             maxHeight: "100%",
             position: "fixed",
@@ -81,8 +79,8 @@ const Home = () => {
       <div className="slider-container">
         <Slider>
           {slideImages.map((slide, index) => (
-            <div key={index}>
-              <img src={slide.img} alt={`Slide ${slide.index}`} />
+            <div key={index} className="divContainer" >
+              <img src={slide.img} alt={`Slide ${slide.index}`} style={{width:'400px', height:'340px', textAlignLast:'center'}} />
             </div>
           ))}
         </Slider>
