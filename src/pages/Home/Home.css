@@ -14,7 +14,7 @@
 }
 .text {
   font-size: 37px;
-  color: white ;
+  color: white;
 }
 h1 {
   font-size: 37px;
@@ -30,7 +30,27 @@ h1 {
 
 /* slider */
 
-.slider-container{
-  width: 80%;
+.slider-container {
+  text-align: center;
+  align-items: center;
+  width: 50%;
   margin: 0 auto;
 }
+.divContainer{
+  border: 1px solid red;
+  height: 340px;
+
+}
+/* .add{
+  position: relative;
+  bottom: auto;
+  width: 100%;
+}
+.slick-dots {
+  position: absolute; 
+  bottom: 200px;
+  width: 100%;
+  height: 400px;
+  list-style: none;
+  text-align: center;
+}  */
