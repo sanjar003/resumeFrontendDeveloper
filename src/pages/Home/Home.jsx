@@ -79,8 +79,16 @@ const Home = () => {
       <div className="slider-container">
         <Slider>
           {slideImages.map((slide, index) => (
-            <div key={index} className="divContainer" >
-              <img src={slide.img} alt={`Slide ${slide.index}`} style={{width:'400px', height:'340px', textAlignLast:'center'}} />
+            <div key={index} className="divContainer">
+              <img
+                src={slide.img}
+                alt={`Slide ${slide.index}`}
+                style={{
+                  width: "400px",
+                  height: "340px",
+                  paddingLeft: "23%",
+                }}
+              />
             </div>
           ))}
         </Slider>

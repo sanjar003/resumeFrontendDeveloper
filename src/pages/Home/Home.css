@@ -31,6 +31,7 @@ h1 {
 /* slider */
 
 .slider-container {
+  padding-top: 200px;
   text-align: center;
   align-items: center;
   width: 50%;
