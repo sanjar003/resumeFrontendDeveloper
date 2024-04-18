@@ -14,6 +14,7 @@ const Layout = () => {
               <Span>About Me</Span>
             </Link>
           </>
+          
         </Headers>
       </div>
       <Outlet />
