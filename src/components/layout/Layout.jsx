@@ -1,10 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
 import styled from "styled-components";
-// import Footer from "../../pages/footer/Footer";
 
 const Layout = () => {
   return (
     <>
+<<<<<<< HEAD
       <Headers>
         <div>
           <Link to="/">
@@ -22,27 +22,35 @@ const Layout = () => {
           </Link>
         </div> */}
       </Headers>
+=======
+      <div>
+        <Link to="/">
+          <Span>Home</Span>
+        </Link>
+        <Headers>
+          <>
+            <Link to="/about">
+              <Span>About Me</Span>
+            </Link>
+          </>
+        </Headers>
+      </div>
+>>>>>>> d6a1d60a41ccfe4cfba2769007190a8bfadb432d
       <Outlet />
-      {/* <footer>2222</footer> */}
     </>
   );
 };
 
 const Headers = styled.header`
   display: flex;
-  justify-content: center;
-  align-items: center;
   position: fixed;
-  width: 100%;
+  width: 90%;
   height: 50px;
-  /* color: black; */
-  /* background: #8121d0; */
   backdrop-filter: blur(2px);
 `;
 const Span = styled.span`
   margin-top: 6px;
   font-size: 22px;
-  margin-left: 15px;
   color: #0a0a0a;
 `;
 
