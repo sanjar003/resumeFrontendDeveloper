@@ -1,12 +1,12 @@
 import React from "react";
-import './Footer.css'
+import "./Footer.css";
 import styled from "styled-components";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Footer = () => {
   return (
     <Container>
-      <a href="https://github.com/dashboard" >
+      <a href="https://github.com/dashboard">
         <i class="bi bi-github"></i>
       </a>
       <h2> © 2024 </h2>
@@ -14,6 +14,7 @@ const Footer = () => {
   );
 };
 const Container = styled.div`
+padding-top:"40px";
   display: flex;
   align-items: center;
   justify-content: center;
