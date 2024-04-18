@@ -12,6 +12,7 @@ import gitHub from "../../Assets/github.svg";
 import Js from "../../Assets/js.png";
 import Reacct from "../../Assets/react.png";
 import Sass from "../../Assets/sass.png";
+import Footer from "../footer/Footer";
 
 // import Footer from "../footer/Footer";
 const Home = () => {
@@ -91,13 +92,14 @@ const Home = () => {
                 style={{
                   width: "400px",
                   height: "340px",
-                  paddingLeft: "23%",
+                  paddingLeft: "26%",
                 }}
               />
             </div>
           ))}
         </Slider>
       </div>
+      <Footer  />
     </>
   );
 };
