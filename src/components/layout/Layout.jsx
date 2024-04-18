@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Layout = () => {
   return (
     <>
-<<<<<<< HEAD
+
       <Headers>
         <div>
           <Link to="/">
@@ -22,7 +22,6 @@ const Layout = () => {
           </Link>
         </div> */}
       </Headers>
-=======
       <div>
         <Link to="/">
           <Span>Home</Span>
@@ -35,7 +34,6 @@ const Layout = () => {
           </>
         </Headers>
       </div>
->>>>>>> d6a1d60a41ccfe4cfba2769007190a8bfadb432d
       <Outlet />
     </>
   );
