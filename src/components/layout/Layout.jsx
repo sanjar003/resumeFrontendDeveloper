@@ -4,26 +4,14 @@ import styled from "styled-components";
 const Layout = () => {
   return (
     <>
-
-      
-
-
       <Headers>
-        <div>
           <Link to="/">
             <Span>Home</Span>
           </Link>
-
           <Link to="/about">
             <Span>About Me</Span>
           </Link>
-
-        </div>
-     
-      </Headers>
-     
-
-    
+      </Headers>    
       <Outlet />
 </>
   );

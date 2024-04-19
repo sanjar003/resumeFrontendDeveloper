@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Asests from "../../Assets/webdev.svg";
 import MySkills from "./MySkills";
+import AboutImg from '../../Assets/Home.jpg'
 import Footer from "../footer/Footer";
 
 const About = () => {
