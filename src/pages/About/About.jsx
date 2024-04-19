@@ -8,13 +8,28 @@ const About = () => {
   return (
     <>
       <Container>
+
+        <img
+          src={AboutImg}
+          style={{
+            height: "100%",
+            maxHeight: "800px",
+            maxHeight: "100%",
+            position: "fixed",
+            zIndex: "-9",
+            width: "100%",
+            backgroundPosition: "center",
+            top: "3px",
+          }}
+        />
+
         <Divcontainer>
           <b>
             Мои навыки включают разработку веб-приложений
             <ins style={{ color: "red", fontSize: "22px " }}>
               использованиеREST API
             </ins>
-            для обмена данными работу с системой контроля версий{" "}
+            для обмена данными работу с системой контроля версий
             <ins style={{ color: "red", fontSize: "22px" }}>Git</ins> , создание
             компонентов с использованием библиотеки
             <ins style={{ color: "red", fontSize: "22px" }}>ReactJs</ins> , а
