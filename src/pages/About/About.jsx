@@ -9,16 +9,16 @@ const About = () => {
   return (
     <>
       <Container>
-        <img
+        <ImageMedia
           src={AboutImg}
-          style={{
-            maxHeight: "100%",
-            position: "fixed",
-            zIndex: "-9",
-            width: "100%",
-            backgroundPosition: "center",
-            top: "3px",
-          }}
+          // style={{
+          //   maxHeight: "100%",
+          //   position: "fixed",
+          //   zIndex: "-9",
+          //   width: "100%",
+          //   backgroundPosition: "center",
+          //   top: "3px",
+          // }}
         />
         <Divcontainer>
           <b>
@@ -56,10 +56,7 @@ const About = () => {
           </b>
         </Divcontainer>
         <DIVCOntainer>
-          <ImageMedia
-            src={Asests}
-            style={{ width: "620px", height: "580px" }}
-          />
+          <img src={Asests} style={{ width: "620px", height: "580px" }} />
         </DIVCOntainer>
       </Container>
 
@@ -111,6 +108,12 @@ const Divcontainer = styled.div`
   }
 `;
 const ImageMedia = styled.img`
+  width: 100%;
+  position: fixed;
+  z-index: -5;
+  background-position: center;
+  background-size: cover;
+  top: 3px;
   @media (min-width: 768px) and (max-width: 1023px) {
     width: 100%;
   }
