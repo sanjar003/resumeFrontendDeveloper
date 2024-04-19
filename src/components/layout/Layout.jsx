@@ -4,19 +4,14 @@ import styled from "styled-components";
 const Layout = () => {
   return (
     <>
-      <div>
+      <Headers>
         <Link to="/">
           <Span>Home</Span>
         </Link>
-        <Headers>
-          <>
-            <Link to="/about">
-              <Span>About Me</Span>
-            </Link>
-          </>
-          
-        </Headers>
-      </div>
+        <Link to="/about">
+          <Span>About Me</Span>
+        </Link>
+      </Headers>
       <Outlet />
     </>
   );
@@ -24,6 +19,9 @@ const Layout = () => {
 
 const Headers = styled.header`
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
   position: fixed;
   width: 90%;
   height: 50px;

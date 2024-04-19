@@ -56,7 +56,10 @@ const About = () => {
           </b>
         </Divcontainer>
         <DIVCOntainer>
-          <img src={Asests} style={{ width: "620px", height: "580px" }} />
+          <ImageMedia
+            src={Asests}
+            style={{ width: "620px", height: "580px" }}
+          />
         </DIVCOntainer>
       </Container>
 
@@ -86,8 +89,13 @@ const Container = styled.div`
   justify-content: center;
   height: 100%;
   padding-top: 90px;
-  flex-wrap: wrap;
   gap: 55px;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 `;
 const Divcontainer = styled.div`
   width: 570px;
@@ -95,13 +103,26 @@ const Divcontainer = styled.div`
   color: white;
   text-align: center;
   font-size: 21px;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 405px;
+    height: 430px;
+    flex-wrap: wrap;
+    font-size: 17px;
+  }
 `;
+const ImageMedia = styled.img`
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 100%;
+  }
+`;
+
 const DIVCOntainer = styled.div`
   width: 620px;
   height: 580px;
-`;
-// const DIVCONTAINER = styled.div`
 
-//   font-size: 84px;
-// `;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 305px;
+    height: 350px;
+  }
+`;
 export default About;
