@@ -5,6 +5,9 @@ const Layout = () => {
   return (
     <>
 
+      
+
+
       <Headers>
         <div>
           <Link to="/">
@@ -16,31 +19,21 @@ const Layout = () => {
           </Link>
 
         </div>
-        {/* <div>
-          <Link to="project">
-            <Span>MyProject</Span>
-          </Link>
-        </div> */}
+     
       </Headers>
-      <div>
-        <Link to="/">
-          <Span>Home</Span>
-        </Link>
-        <Headers>
-          <>
-            <Link to="/about">
-              <Span>About Me</Span>
-            </Link>
-          </>
-        </Headers>
-      </div>
+     
+
+    
       <Outlet />
-    </>
+</>
   );
 };
 
 const Headers = styled.header`
   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
   position: fixed;
   width: 90%;
   height: 50px;
