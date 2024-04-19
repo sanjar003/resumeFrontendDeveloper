@@ -49,12 +49,17 @@ const Home = () => {
           src={HOMEPNG}
           alt="home pic"
           style={{
-            maxHeight: "100%",
+            height: "100%",
             position: "fixed",
             zIndex: "-99",
             width: "100%",
+            backgroundPosition:"center",
+            backgroundImage:'center',
+            top:"3px",
+
             backgroundPosition: "center",
             top: "3px",
+
           }}
         />
         <div className="containerText ">

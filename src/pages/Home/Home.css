@@ -10,7 +10,7 @@
 }
 .containerText {
   width: 600px;
-  height: 250px;
+  height: 290px;
 }
 .text {
   font-size: 37px;
@@ -38,7 +38,6 @@ h1 {
   margin: 0 auto;
 }
 .divContainer{
-  border: 1px solid red;
   height: 340px;
 
 }

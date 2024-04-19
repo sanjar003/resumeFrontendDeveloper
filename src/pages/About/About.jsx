@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import AboutImg from "../../Assets/Home.jpg";
 import Asests from "../../Assets/webdev.svg";
 import MySkills from "./MySkills";
 import Footer from "../footer/Footer";
@@ -9,9 +8,12 @@ const About = () => {
   return (
     <>
       <Container>
+
         <img
           src={AboutImg}
           style={{
+            height: "100%",
+            maxHeight: "800px",
             maxHeight: "100%",
             position: "fixed",
             zIndex: "-9",
@@ -20,13 +22,14 @@ const About = () => {
             top: "3px",
           }}
         />
+
         <Divcontainer>
           <b>
             Мои навыки включают разработку веб-приложений
             <ins style={{ color: "red", fontSize: "22px " }}>
               использованиеREST API
             </ins>
-            для обмена данными работу с системой контроля версий{" "}
+            для обмена данными работу с системой контроля версий
             <ins style={{ color: "red", fontSize: "22px" }}>Git</ins> , создание
             компонентов с использованием библиотеки
             <ins style={{ color: "red", fontSize: "22px" }}>ReactJs</ins> , а
@@ -86,8 +89,13 @@ const Container = styled.div`
   justify-content: center;
   height: 100%;
   padding-top: 90px;
-  flex-wrap: wrap;
   gap: 55px;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 `;
 const Divcontainer = styled.div`
   width: 570px;
@@ -95,13 +103,21 @@ const Divcontainer = styled.div`
   color: white;
   text-align: center;
   font-size: 21px;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 405px;
+    height: 430px;
+    flex-wrap: wrap;
+    font-size: 17px;
+  }
 `;
+
 const DIVCOntainer = styled.div`
   width: 620px;
   height: 580px;
-`;
-// const DIVCONTAINER = styled.div`
 
-//   font-size: 84px;
-// `;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 305px;
+    height: 350px;
+  }
+`;
 export default About;
