@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import AboutImg from "../../Assets/Home.jpg";
 import Asests from "../../Assets/webdev.svg";
 import MySkills from "./MySkills";
 import Footer from "../footer/Footer";
@@ -9,17 +8,6 @@ const About = () => {
   return (
     <>
       <Container>
-        <ImageMedia
-          src={AboutImg}
-          // style={{
-          //   maxHeight: "100%",
-          //   position: "fixed",
-          //   zIndex: "-9",
-          //   width: "100%",
-          //   backgroundPosition: "center",
-          //   top: "3px",
-          // }}
-        />
         <Divcontainer>
           <b>
             Мои навыки включают разработку веб-приложений
@@ -105,17 +93,6 @@ const Divcontainer = styled.div`
     height: 430px;
     flex-wrap: wrap;
     font-size: 17px;
-  }
-`;
-const ImageMedia = styled.img`
-  width: 100%;
-  position: fixed;
-  z-index: -5;
-  background-position: center;
-  background-size: cover;
-  top: 3px;
-  @media (min-width: 768px) and (max-width: 1023px) {
-    width: 100%;
   }
 `;
 
