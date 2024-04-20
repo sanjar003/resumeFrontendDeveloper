@@ -2,14 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import Asests from "../../Assets/webdev.svg";
 import MySkills from "./MySkills";
-import AboutImg from '../../Assets/Home.jpg'
+import AboutImg from "../../Assets/Home.jpg";
 import Footer from "../footer/Footer";
 
 const About = () => {
   return (
     <>
       <Container>
-
         <img
           src={AboutImg}
           style={{
@@ -23,6 +22,7 @@ const About = () => {
             top: "3px",
           }}
         />
+        <img src=""/>
 
         <Divcontainer>
           <b>
@@ -56,11 +56,14 @@ const About = () => {
             разработчиком который всегда готов принять новые вызовы и научиться
             новым навыкам чтобы создавать качественные и инновационные
             <ins style={{ color: "red", fontSize: "22px" }}>веб-приложения</ins>
-            .
           </b>
         </Divcontainer>
         <DIVCOntainer>
-          <img src={Asests} style={{ width: "620px", height: "580px" }} />
+          <img
+            src={Asests}
+            alt="Web development"
+            style={{ width: "100%", height: "100%"}}
+          />
         </DIVCOntainer>
       </Container>
 
@@ -105,10 +108,9 @@ const Divcontainer = styled.div`
   text-align: center;
   font-size: 21px;
   @media (min-width: 768px) and (max-width: 1023px) {
-    width: 405px;
-    height: 430px;
-    flex-wrap: wrap;
-    font-size: 17px;
+    width: 375px;
+    flex-wrap:wrap;
+    font-size: 16px;
   }
 `;
 
@@ -117,8 +119,8 @@ const DIVCOntainer = styled.div`
   height: 580px;
 
   @media (min-width: 768px) and (max-width: 1023px) {
-    width: 305px;
-    height: 350px;
+    width: 390px;
+    height: 380px;
   }
 `;
 export default About;
