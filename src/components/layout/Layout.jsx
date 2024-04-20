@@ -26,6 +26,11 @@ const Headers = styled.header`
   width: 100%;
   height: 50px;
   backdrop-filter: blur(2px);
+  @media (min-width: 768px) and (max-width: 1023px) {
+    display: flex;
+    align-items: center;
+
+  }
 `;
 const Span = styled.span`
   margin-top: 6px;

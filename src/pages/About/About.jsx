@@ -4,24 +4,13 @@ import Asests from "../../Assets/webdev.svg";
 import MySkills from "./MySkills";
 import AboutImg from "../../Assets/Home.jpg";
 import Footer from "../footer/Footer";
+import "./About.css";
 
 const About = () => {
   return (
     <>
       <Container>
-        <img
-          src={AboutImg}
-          style={{
-            height: "100%",
-            maxHeight: "800px",
-            maxHeight: "100%",
-            position: "fixed",
-            zIndex: "-9",
-            width: "100%",
-            backgroundPosition: "center",
-            top: "3px",
-          }}
-        />
+        <BackgroundImg src={AboutImg} />
 
         <Divcontainer>
           <b>
@@ -60,8 +49,9 @@ const About = () => {
         <DIVCOntainer>
           <img
             src={Asests}
+            className="ImgFlter"
             alt="Web development"
-            style={{ width: "100%", height: "100%"}}
+            style={{ width: "100%", height: "100%", filter: "" }}
           />
         </DIVCOntainer>
       </Container>
@@ -91,13 +81,24 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding-top: 90px;
+  padding-top: 50px;
   gap: 55px;
   @media (min-width: 768px) and (max-width: 1023px) {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    align-content: flex-start;
+    padding-top: 70px;
+  }
+`;
+const BackgroundImg = styled.img`
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  background-position: center;
+  top: 0;
+
+  @media (min-width: 830px) and (max-width: 980px) {
+    display: none;
   }
 `;
 const Divcontainer = styled.div`
@@ -107,9 +108,10 @@ const Divcontainer = styled.div`
   text-align: center;
   font-size: 21px;
   @media (min-width: 768px) and (max-width: 1023px) {
-    width: 375px;
-    flex-wrap:wrap;
-    font-size: 16px;
+    width: 320px;
+    height: 430px;
+    flex-wrap: wrap;
+    font-size: 14px;
   }
 `;
 
@@ -118,7 +120,7 @@ const DIVCOntainer = styled.div`
   height: 580px;
 
   @media (min-width: 768px) and (max-width: 1023px) {
-    width: 390px;
+    width: 320px;
     height: 380px;
   }
 `;
