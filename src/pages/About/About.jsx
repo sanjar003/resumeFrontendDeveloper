@@ -111,7 +111,6 @@ const Divcontainer = styled.div`
     width: 375px;
     flex-wrap:wrap;
     font-size: 16px;
-    
   }
 `;
 
