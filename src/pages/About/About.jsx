@@ -22,7 +22,6 @@ const About = () => {
             top: "3px",
           }}
         />
-        <img src=""/>
 
         <Divcontainer>
           <b>
