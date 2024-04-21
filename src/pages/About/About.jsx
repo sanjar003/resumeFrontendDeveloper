@@ -51,7 +51,7 @@ const About = () => {
             src={Asests}
             className="ImgFlter"
             alt="Web development"
-            style={{ width: "100%", height: "100%", filter: "" }}
+            style={{ width: "100%", height: "100%" }}
           />
         </DIVCOntainer>
       </Container>
@@ -81,7 +81,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   height: 100%;
-  padding-top: 50px;
+  padding-top: 60px;
   gap: 55px;
   @media (min-width: 768px) and (max-width: 1023px) {
     display: flex;
@@ -102,11 +102,11 @@ const BackgroundImg = styled.img`
   }
 `;
 const Divcontainer = styled.div`
-  width: 570px;
-  height: 460px;
+  width: 600px;
+  height: 750px;
   color: white;
   text-align: center;
-  font-size: 21px;
+  font-size: 23px;
   @media (min-width: 768px) and (max-width: 1023px) {
     width: 320px;
     height: 430px;
@@ -117,7 +117,7 @@ const Divcontainer = styled.div`
 
 const DIVCOntainer = styled.div`
   width: 620px;
-  height: 580px;
+  height: 750px;
 
   @media (min-width: 768px) and (max-width: 1023px) {
     width: 320px;
