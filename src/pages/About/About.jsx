@@ -51,7 +51,7 @@ const About = () => {
             src={Asests}
             className="ImgFlter"
             alt="Web development"
-            style={{ width: "100%", height: "100%" }}
+            style={{ width: "100%", height: "70%" }}
           />
         </DIVCOntainer>
       </Container>
